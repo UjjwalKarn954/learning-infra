@@ -6,7 +6,7 @@ version: 0.2          # version of yaml file or build state
 phases:               # we have four phases in that file this phases are default so you need to write your logic in it
   install:            # this is first phase  we install whatever we want
     runtime-versions:       # in this step we declare what we required for run our images
-      terraform: 1.0.1
+      terraform: 0.14.0
     commands:           # in this block we run command
       - echo "installing something wait "
       - terraform init
